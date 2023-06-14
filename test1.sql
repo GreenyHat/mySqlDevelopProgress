@@ -120,9 +120,20 @@ Mensaje de error.
 
 
 
+//Videoclub:
 
+CREATE table videoclub(
+titulo VARCHAR2(30),
+director VARCHAR2(30),
+duracion NUMBER(3,0),
+copias NUMBER(9, 0)
+);
 
-
+INSERT INTO videoclub (titulo,director,duracion,copias) VALUES ('','',,);
+INSERT INTO videoclub (titulo,director,duracion,copias) VALUES ('','',,);
+INSERT INTO videoclub (titulo,director,duracion,copias) VALUES ('','',,);
+INSERT INTO videoclub (titulo,director,duracion,copias) VALUES ('','',,);
+SELECT * FROM videoclub;
 
 
 
